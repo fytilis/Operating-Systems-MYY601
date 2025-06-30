@@ -1,9 +1,3 @@
-# Operating-Systems-MYY601
-Εξαιρετικά! Με βάση τις δύο αναφορές που παρείχες, έφτιαξα ένα συνολικό README.md στα αγγλικά.
-
-Αυτό το README συνδυάζει και τα δύο projects (Εργαστήριο 1 & 2) σε μια ενιαία, επαγγελματική παρουσίαση, σαν να ανήκουν στο ίδιο αποθετήριο (repository) "Operating Systems Labs". Μπορείς να το αντιγράψεις και να το επικολλήσεις απευθείας στο GitHub.
-
-Generated markdown
 # MYY601 Operating Systems Labs
 
 This repository contains the projects developed for the "MYY601 Operating Systems" course at the Department of Computer Science & Engineering, University of Ioannina. The labs focus on low-level systems programming, exploring concepts in concurrency, synchronization, and kernel-level file system instrumentation.
