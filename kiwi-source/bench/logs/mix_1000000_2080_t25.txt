@@ -1,0 +1,154 @@
+Keys:		16 bytes each
+Values: 	1000 bytes each
+Entries:	1000000
+IndexSize:	23.84 MiB (estimated)
+DataSize:	957.49 MiB (estimated)
+---------------------------------------------------------------------------------------------------
+Date:		Wed Apr  2 20:12:36 2025
+CPU:		2 * AMD Ryzen 7 3700U with Radeon Vega Mobile Gfx
+CPUCache:	512 KB
+---------------------------------------------------------------------------------------------------
+Starting benchmark...
+Requested Total Ops: 1000000
+Threads: 25, Write Ratio: 20%
+Random Keys: Yes
+---------------------------------------------------------------------------------------------------
+[5747] 02 Apr 20:12:36.529 . file.c:200 Creating directory structure: testdb/si
+[5747] 02 Apr 20:12:36.529 - file.c:211  -> Creating testdb
+[5747] 02 Apr 20:12:36.530 - file.c:211  -> Creating testdb/si
+[5747] 02 Apr 20:12:36.540 . sst.c:283 Manifest file not present
+[5747] 02 Apr 20:12:36.609 . db.c:58 Starting compaction of the memtable after 4117 insertions and 0 deletions
+[5747] 02 Apr 20:12:36.609 . sst.c:595 IN sst_merge the REFCOUNT IS at 3
+[5747] 02 Apr 20:12:36.609 - sst.c:165 The merge thread received a MERGE job
+[5747] 02 Apr 20:12:36.609 . sst.c:166 Merging inside compaction thread
+[5747] 02 Apr 20:12:36.609 . sst.c:608 Compacting the memtable to a SST file
+[5747] 02 Apr 20:12:36.609 - sst.c:877 Range [0065z0r5076qda7t, zzbzx01iklpvon0k] DOES NOT overlap in level 0. Checking others
+[5747] 02 Apr 20:12:36.609 - sst.c:825 Extracted range: [0065z0r5076qda7t, zzbzx01iklpvon0k]
+[5747] 02 Apr 20:12:36.609 - sst.c:825 Extracted range: [0065z0r5076qda7t, zzbzx01iklpvon0k]
+[5747] 02 Apr 20:12:36.609 . sst.c:929 Using level 2 for memtable compaction [0065z0r5076qda7t, zzbzx01iklpvon0k]
+[5747] 02 Apr 20:12:36.609 . file.c:200 Creating directory structure: testdb/si/2
+[5747] 02 Apr 20:12:36.609 - file.c:211  -> Creating testdb/si/2
+[5747] 02 Apr 20:12:36.610 . sst.c:633 Compaction of 4117 [4195223 bytes allocated] elements started
+[5747] 02 Apr 20:12:36.618 - sst_builder.c:167 Index block @ offset: 0x4FDDD size: 19740
+[5747] 02 Apr 20:12:36.619 - log.c:159 Log file testdb/si/1.log created
+[5747] 02 Apr 20:12:36.619 - sst_builder.c:168 Meta block @ offset: 0x4FD95 size: 72
+[5747] 02 Apr 20:12:36.619 - sst_builder.c:171 Bloom block @ offset: 0x4D6F1 size: 9892
+[5747] 02 Apr 20:12:36.619 - file.c:170 Truncating file testdb/si/2/0.sst to 346945 bytes
+[5747] 02 Apr 20:12:36.626 . file.c:65 Mapping of 346945 bytes for testdb/si/2/0.sst
+[5747] 02 Apr 20:12:36.626 - sst_loader.c:183 Index @ offset: 327133 size: 19740
+[5747] 02 Apr 20:12:36.626 - sst_loader.c:184 Meta Block @ offset: 327061 size: 72
+[5747] 02 Apr 20:12:36.626 . sst_loader.c:201 Data size:        317169
+[5747] 02 Apr 20:12:36.627 . sst_loader.c:203 Index size:       0
+[5747] 02 Apr 20:12:36.627 . sst_loader.c:204 Key size:         65872
+[5747] 02 Apr 20:12:36.627 . sst_loader.c:205 Num blocks size:  824
+[5747] 02 Apr 20:12:36.627 . sst_loader.c:206 Num entries size: 4117
+[5747] 02 Apr 20:12:36.627 . sst_loader.c:207 Value size:       4117000
+[5747] 02 Apr 20:12:36.628 . sst_loader.c:210 Filter size:      9892
+[5747] 02 Apr 20:12:36.628 . sst_loader.c:211 Bloom offset 317169 size: 9892
+[5747] 02 Apr 20:12:36.629 . sst.c:635 Compaction of 4117 elements finished
+[5747] 02 Apr 20:12:36.629 - file.c:170 Truncating file testdb/si/manifest to 44 bytes
+[5747] 02 Apr 20:12:36.634 . sst.c:51 --- Level 0 [  0 files,   0 bytes]---
+[5747] 02 Apr 20:12:36.634 . sst.c:51 --- Level 1 [  0 files,   0 bytes]---
+[5747] 02 Apr 20:12:36.634 . sst.c:51 --- Level 2 [  1 files, 338 KiB  ]---
+[5747] 02 Apr 20:12:36.634 . sst.c:55 Metadata filenum:0 smallest: 0065z0r5076qda7t largest: zzbzx01iklpvon0k
+[5747] 02 Apr 20:12:36.634 . sst.c:51 --- Level 3 [  0 files,   0 bytes]---
+[5747] 02 Apr 20:12:36.634 . sst.c:51 --- Level 4 [  0 files,   0 bytes]---
+[5747] 02 Apr 20:12:36.634 . sst.c:51 --- Level 5 [  0 files,   0 bytes]---
+[5747] 02 Apr 20:12:36.635 . sst.c:51 --- Level 6 [  0 files,   0 bytes]---
+[5747] 02 Apr 20:12:36.635 . log.c:46 Removing old log file testdb/si/0.log
+[5747] 02 Apr 20:12:36.635 . sst.c:170 Merge successfully completed. Releasing the skiplist
+[5747] 02 Apr 20:12:44.393 . db.c:33 Closing database 195790
+[5747] 02 Apr 20:12:44.393 . sst.c:595 IN sst_merge the REFCOUNT IS at 2
+[5747] 02 Apr 20:12:44.393 . sst.c:415 Sending termination message to the detached thread
+[5747] 02 Apr 20:12:44.393 . sst.c:422 Waiting the merger thread
+[5747] 02 Apr 20:12:44.394 - sst.c:165 The merge thread received a MERGE job
+[5747] 02 Apr 20:12:44.394 . sst.c:166 Merging inside compaction thread
+[5747] 02 Apr 20:12:44.394 . sst.c:608 Compacting the memtable to a SST file
+[5747] 02 Apr 20:12:44.394 - sst.c:877 Range [0001ujgebxt56cft, zzzb84z1acgz4jej] DOES NOT overlap in level 0. Checking others
+[5747] 02 Apr 20:12:44.394 - sst.c:825 Extracted range: [0001ujgebxt56cft, zzzb84z1acgz4jej]
+[5747] 02 Apr 20:12:44.394 - sst.c:892 Range [0001ujgebxt56cft, zzzb84z1acgz4jej] DOES  overlap in level 2. Checking others
+[5747] 02 Apr 20:12:44.394 . sst.c:929 Using level 1 for memtable compaction [0001ujgebxt56cft, zzzb84z1acgz4jej]
+[5747] 02 Apr 20:12:44.394 . file.c:200 Creating directory structure: testdb/si/1
+[5747] 02 Apr 20:12:44.394 - file.c:211  -> Creating testdb/si/1
+[5747] 02 Apr 20:12:44.394 . sst.c:633 Compaction of 195790 [4002698 bytes allocated] elements started
+[5747] 02 Apr 20:12:44.579 - sst_builder.c:167 Index block @ offset: 0x3616FC size: 21879
+[5747] 02 Apr 20:12:44.579 - sst_builder.c:168 Meta block @ offset: 0x3616B4 size: 72
+[5747] 02 Apr 20:12:44.579 - sst_builder.c:171 Bloom block @ offset: 0x324B56 size: 248670
+[5747] 02 Apr 20:12:44.579 - file.c:170 Truncating file testdb/si/1/1.sst to 3566779 bytes
+[5747] 02 Apr 20:12:44.625 . file.c:65 Mapping of 3566779 bytes for testdb/si/1/1.sst
+[5747] 02 Apr 20:12:44.625 - sst_loader.c:183 Index @ offset: 3544828 size: 21879
+[5747] 02 Apr 20:12:44.625 - sst_loader.c:184 Meta Block @ offset: 3544756 size: 72
+[5747] 02 Apr 20:12:44.625 . sst_loader.c:201 Data size:        3296086
+[5747] 02 Apr 20:12:44.625 . sst_loader.c:203 Index size:       0
+[5747] 02 Apr 20:12:44.625 . sst_loader.c:204 Key size:         3132640
+[5747] 02 Apr 20:12:44.625 . sst_loader.c:205 Num blocks size:  898
+[5747] 02 Apr 20:12:44.625 . sst_loader.c:206 Num entries size: 195790
+[5747] 02 Apr 20:12:44.625 . sst_loader.c:207 Value size:       478000
+[5747] 02 Apr 20:12:44.625 . sst_loader.c:210 Filter size:      248670
+[5747] 02 Apr 20:12:44.625 . sst_loader.c:211 Bloom offset 3296086 size: 248670
+[5747] 02 Apr 20:12:44.625 . sst.c:635 Compaction of 195790 elements finished
+[5747] 02 Apr 20:12:44.625 - file.c:170 Truncating file testdb/si/manifest to 81 bytes
+[5747] 02 Apr 20:12:44.644 . sst.c:51 --- Level 0 [  0 files,   0 bytes]---
+[5747] 02 Apr 20:12:44.644 . sst.c:51 --- Level 1 [  1 files,   3 MiB  ]---
+[5747] 02 Apr 20:12:44.644 . sst.c:55 Metadata filenum:1 smallest: 0001ujgebxt56cft largest: zzzb84z1acgz4jej
+[5747] 02 Apr 20:12:44.644 . sst.c:51 --- Level 2 [  1 files, 338 KiB  ]---
+[5747] 02 Apr 20:12:44.644 . sst.c:55 Metadata filenum:0 smallest: 0065z0r5076qda7t largest: zzbzx01iklpvon0k
+[5747] 02 Apr 20:12:44.644 . sst.c:51 --- Level 3 [  0 files,   0 bytes]---
+[5747] 02 Apr 20:12:44.644 . sst.c:51 --- Level 4 [  0 files,   0 bytes]---
+[5747] 02 Apr 20:12:44.644 . sst.c:51 --- Level 5 [  0 files,   0 bytes]---
+[5747] 02 Apr 20:12:44.644 . sst.c:51 --- Level 6 [  0 files,   0 bytes]---
+[5747] 02 Apr 20:12:44.644 . log.c:46 Removing old log file testdb/si/0.log
+[5747] 02 Apr 20:12:44.644 . sst.c:170 Merge successfully completed. Releasing the skiplist
+[5747] 02 Apr 20:12:44.644 . skiplist.c:67 SkipList refcount is at 0. Freeing up the structure
+[5747] 02 Apr 20:12:44.645 - sst.c:176 Exiting from the merge thread as user requested
+[5747] 02 Apr 20:12:44.645 - file.c:170 Truncating file testdb/si/manifest to 81 bytes
+[5747] 02 Apr 20:12:44.660 . log.c:46 Removing old log file testdb/si/1.log
++--------------------------------+--------------------------------+
+| Overall Statistics             |                                |
++--------------------------------+--------------------------------+
+| Wall Clock Time                |      7.864 sec                  |
+| Total Operations Completed     |    1000000 ops                 |
+|   Reads                        |     800093 ops                 |
+|   Writes                       |     199907 ops                 |
+| Throughput                     |   127154.0 ops/sec             |
++--------------------------------+--------------------------------+
+| Average Latencies              |                                |
++--------------------------------+--------------------------------+
+| Average Operation Latency    |      181.5 us                   |
+|   Average Read Latency         |        9.3 us                   |
+|   Average Write Latency        |      870.7 us                   |
++--------------------------------+--------------------------------+
+| Total DB Ops CPU Time (Sum)    |    181.511 sec                  |
+| Max Thread Wall Time           |       7850 ms                  |
++--------------------------------+--------------------------------+
+
+Per-Thread Details:
+---------------------------------------------------------------------------------------
+| Thread | Ops Done | Reads  | Writes | Read Time (us) | Write Time (us) | Wall Time (ms) |
+|--------|----------|--------|--------|----------------|-----------------|----------------|
+| 0      | 40000    | 31990  | 8010   | 314080         | 7264900         | 7599           |
+| 1      | 40000    | 32152  | 7848   | 302935         | 7381534         | 7710           |
+| 2      | 40000    | 31973  | 8027   | 247296         | 6606229         | 6872           |
+| 3      | 40000    | 31987  | 8013   | 360093         | 7367444         | 7748           |
+| 4      | 40000    | 31942  | 8058   | 267448         | 6991761         | 7279           |
+| 5      | 40000    | 32119  | 7881   | 347673         | 7228147         | 7595           |
+| 6      | 40000    | 32063  | 7937   | 234149         | 5975346         | 6228           |
+| 7      | 40000    | 31871  | 8129   | 318257         | 7457480         | 7816           |
+| 8      | 40000    | 32153  | 7847   | 348279         | 7479080         | 7850           |
+| 9      | 40000    | 32001  | 7999   | 284659         | 7536284         | 7842           |
+| 10     | 40000    | 31994  | 8006   | 276257         | 6302662         | 6598           |
+| 11     | 40000    | 31962  | 8038   | 333559         | 6948589         | 7304           |
+| 12     | 40000    | 31979  | 8021   | 292387         | 6835104         | 7147           |
+| 13     | 40000    | 31883  | 8117   | 249257         | 6567279         | 6836           |
+| 14     | 40000    | 32061  | 7939   | 302669         | 7254406         | 7588           |
+| 15     | 40000    | 32033  | 7967   | 305222         | 7416387         | 7740           |
+| 16     | 40000    | 31954  | 8046   | 287880         | 7455834         | 7762           |
+| 17     | 40000    | 32059  | 7941   | 282039         | 7183512         | 7486           |
+| 18     | 40000    | 31862  | 8138   | 281991         | 5838135         | 6143           |
+| 19     | 40000    | 32044  | 7956   | 407331         | 7311620         | 7741           |
+| 20     | 40000    | 31862  | 8138   | 269889         | 6605346         | 6898           |
+| 21     | 40000    | 31994  | 8006   | 307535         | 6787700         | 7114           |
+| 22     | 40000    | 32059  | 7941   | 300834         | 7195444         | 7522           |
+| 23     | 40000    | 31987  | 8013   | 315489         | 7299101         | 7636           |
+| 24     | 40000    | 32109  | 7891   | 216335         | 5768625         | 6006           |
+---------------------------------------------------------------------------------------

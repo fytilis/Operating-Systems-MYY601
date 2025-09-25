@@ -1,0 +1,359 @@
+Keys:		16 bytes each
+Values: 	1000 bytes each
+Entries:	1000000
+IndexSize:	23.84 MiB (estimated)
+DataSize:	957.49 MiB (estimated)
+---------------------------------------------------------------------------------------------------
+Date:		Wed Apr  2 20:12:29 2025
+CPU:		2 * AMD Ryzen 7 3700U with Radeon Vega Mobile Gfx
+CPUCache:	512 KB
+---------------------------------------------------------------------------------------------------
+Starting benchmark...
+Requested Total Ops: 1000000
+Threads: 3, Write Ratio: 50%
+Random Keys: Yes
+---------------------------------------------------------------------------------------------------
+[5740] 02 Apr 20:12:29.843 . file.c:200 Creating directory structure: testdb/si
+[5740] 02 Apr 20:12:29.843 - file.c:211  -> Creating testdb
+[5740] 02 Apr 20:12:29.846 - file.c:211  -> Creating testdb/si
+[5740] 02 Apr 20:12:29.847 . sst.c:283 Manifest file not present
+[5740] 02 Apr 20:12:29.880 . db.c:58 Starting compaction of the memtable after 4117 insertions and 0 deletions
+[5740] 02 Apr 20:12:29.880 . sst.c:595 IN sst_merge the REFCOUNT IS at 3
+[5740] 02 Apr 20:12:29.880 - log.c:159 Log file testdb/si/1.log created
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.881 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.882 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.883 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.884 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.884 - sst.c:660 Serving sst_get request from immutable memtable
+[5740] 02 Apr 20:12:29.884 - sst.c:165 The merge thread received a MERGE job
+[5740] 02 Apr 20:12:29.884 . sst.c:166 Merging inside compaction thread
+[5740] 02 Apr 20:12:29.884 . sst.c:608 Compacting the memtable to a SST file
+[5740] 02 Apr 20:12:29.884 - sst.c:877 Range [00ahzwp7dd66fd63, zzzi899yzzdmha7t] DOES NOT overlap in level 0. Checking others
+[5740] 02 Apr 20:12:29.884 - sst.c:825 Extracted range: [00ahzwp7dd66fd63, zzzi899yzzdmha7t]
+[5740] 02 Apr 20:12:29.884 - sst.c:825 Extracted range: [00ahzwp7dd66fd63, zzzi899yzzdmha7t]
+[5740] 02 Apr 20:12:29.884 . sst.c:929 Using level 2 for memtable compaction [00ahzwp7dd66fd63, zzzi899yzzdmha7t]
+[5740] 02 Apr 20:12:29.884 . file.c:200 Creating directory structure: testdb/si/2
+[5740] 02 Apr 20:12:29.887 - file.c:211  -> Creating testdb/si/2
+[5740] 02 Apr 20:12:29.887 . sst.c:633 Compaction of 4117 [4195223 bytes allocated] elements started
+[5740] 02 Apr 20:12:29.898 - sst_builder.c:167 Index block @ offset: 0x5006F size: 19740
+[5740] 02 Apr 20:12:29.898 - sst_builder.c:168 Meta block @ offset: 0x50027 size: 72
+[5740] 02 Apr 20:12:29.898 - sst_builder.c:171 Bloom block @ offset: 0x4D983 size: 9892
+[5740] 02 Apr 20:12:29.898 - file.c:170 Truncating file testdb/si/2/0.sst to 347603 bytes
+[5740] 02 Apr 20:12:29.901 . file.c:65 Mapping of 347603 bytes for testdb/si/2/0.sst
+[5740] 02 Apr 20:12:29.901 - sst_loader.c:183 Index @ offset: 327791 size: 19740
+[5740] 02 Apr 20:12:29.901 - sst_loader.c:184 Meta Block @ offset: 327719 size: 72
+[5740] 02 Apr 20:12:29.902 . sst_loader.c:201 Data size:        317827
+[5740] 02 Apr 20:12:29.902 . sst_loader.c:203 Index size:       0
+[5740] 02 Apr 20:12:29.902 . sst_loader.c:204 Key size:         65872
+[5740] 02 Apr 20:12:29.902 . sst_loader.c:205 Num blocks size:  824
+[5740] 02 Apr 20:12:29.902 . sst_loader.c:206 Num entries size: 4117
+[5740] 02 Apr 20:12:29.902 . sst_loader.c:207 Value size:       4117000
+[5740] 02 Apr 20:12:29.902 . sst_loader.c:210 Filter size:      9892
+[5740] 02 Apr 20:12:29.902 . sst_loader.c:211 Bloom offset 317827 size: 9892
+[5740] 02 Apr 20:12:29.903 . sst.c:635 Compaction of 4117 elements finished
+[5740] 02 Apr 20:12:29.904 - file.c:170 Truncating file testdb/si/manifest to 44 bytes
+[5740] 02 Apr 20:12:29.907 . sst.c:51 --- Level 0 [  0 files,   0 bytes]---
+[5740] 02 Apr 20:12:29.908 . sst.c:51 --- Level 1 [  0 files,   0 bytes]---
+[5740] 02 Apr 20:12:29.908 . sst.c:51 --- Level 2 [  1 files, 339 KiB  ]---
+[5740] 02 Apr 20:12:29.908 . sst.c:55 Metadata filenum:0 smallest: 00ahzwp7dd66fd63 largest: zzzi899yzzdmha7t
+[5740] 02 Apr 20:12:29.908 . sst.c:51 --- Level 3 [  0 files,   0 bytes]---
+[5740] 02 Apr 20:12:29.908 . sst.c:51 --- Level 4 [  0 files,   0 bytes]---
+[5740] 02 Apr 20:12:29.908 . sst.c:51 --- Level 5 [  0 files,   0 bytes]---
+[5740] 02 Apr 20:12:29.908 . sst.c:51 --- Level 6 [  0 files,   0 bytes]---
+[5740] 02 Apr 20:12:29.908 . log.c:46 Removing old log file testdb/si/0.log
+[5740] 02 Apr 20:12:29.908 . sst.c:170 Merge successfully completed. Releasing the skiplist
+[5740] 02 Apr 20:12:32.346 . db.c:58 Starting compaction of the memtable after 217168 insertions and 0 deletions
+[5740] 02 Apr 20:12:32.347 . sst.c:595 IN sst_merge the REFCOUNT IS at 3
+[5740] 02 Apr 20:12:32.347 - sst.c:165 The merge thread received a MERGE job
+[5740] 02 Apr 20:12:32.347 . sst.c:166 Merging inside compaction thread
+[5740] 02 Apr 20:12:32.347 . sst.c:608 Compacting the memtable to a SST file
+[5740] 02 Apr 20:12:32.347 - sst.c:877 Range [0004vq5z8ssk3zy8, zzzi4le12lhbt5il] DOES NOT overlap in level 0. Checking others
+[5740] 02 Apr 20:12:32.347 - sst.c:825 Extracted range: [0004vq5z8ssk3zy8, zzzi899yzzdmha7t]
+[5740] 02 Apr 20:12:32.347 - sst.c:892 Range [0004vq5z8ssk3zy8, zzzi4le12lhbt5il] DOES  overlap in level 2. Checking others
+[5740] 02 Apr 20:12:32.347 . sst.c:929 Using level 1 for memtable compaction [0004vq5z8ssk3zy8, zzzi4le12lhbt5il]
+[5740] 02 Apr 20:12:32.347 . file.c:200 Creating directory structure: testdb/si/1
+[5740] 02 Apr 20:12:32.347 - file.c:211  -> Creating testdb/si/1
+[5740] 02 Apr 20:12:32.347 . sst.c:633 Compaction of 217168 [4194309 bytes allocated] elements started
+[5740] 02 Apr 20:12:32.352 - file.c:170 Truncating file testdb/si/1.log to 4194309 bytes
+[5740] 02 Apr 20:12:32.368 - log.c:159 Log file testdb/si/2.log created
+[5740] 02 Apr 20:12:32.521 - sst_builder.c:167 Index block @ offset: 0x3BB517 size: 23008
+[5740] 02 Apr 20:12:32.521 - sst_builder.c:168 Meta block @ offset: 0x3BB4CF size: 72
+[5740] 02 Apr 20:12:32.521 - sst_builder.c:171 Bloom block @ offset: 0x3780A7 size: 275496
+[5740] 02 Apr 20:12:32.522 - file.c:170 Truncating file testdb/si/1/1.sst to 3936063 bytes
+[5740] 02 Apr 20:12:32.532 . file.c:65 Mapping of 3936063 bytes for testdb/si/1/1.sst
+[5740] 02 Apr 20:12:32.533 - sst_loader.c:183 Index @ offset: 3912983 size: 23008
+[5740] 02 Apr 20:12:32.533 - sst_loader.c:184 Meta Block @ offset: 3912911 size: 72
+[5740] 02 Apr 20:12:32.533 . sst_loader.c:201 Data size:        3637415
+[5740] 02 Apr 20:12:32.533 . sst_loader.c:203 Index size:       0
+[5740] 02 Apr 20:12:32.533 . sst_loader.c:204 Key size:         3474688
+[5740] 02 Apr 20:12:32.533 . sst_loader.c:205 Num blocks size:  942
+[5740] 02 Apr 20:12:32.533 . sst_loader.c:206 Num entries size: 217168
+[5740] 02 Apr 20:12:32.533 . sst_loader.c:207 Value size:       285000
+[5740] 02 Apr 20:12:32.533 . sst_loader.c:210 Filter size:      275496
+[5740] 02 Apr 20:12:32.533 . sst_loader.c:211 Bloom offset 3637415 size: 275496
+[5740] 02 Apr 20:12:32.533 . sst.c:635 Compaction of 217168 elements finished
+[5740] 02 Apr 20:12:32.533 - file.c:170 Truncating file testdb/si/manifest to 81 bytes
+[5740] 02 Apr 20:12:32.536 . sst.c:51 --- Level 0 [  0 files,   0 bytes]---
+[5740] 02 Apr 20:12:32.537 . sst.c:51 --- Level 1 [  1 files,   3 MiB  ]---
+[5740] 02 Apr 20:12:32.537 . sst.c:55 Metadata filenum:1 smallest: 0004vq5z8ssk3zy8 largest: zzzi4le12lhbt5il
+[5740] 02 Apr 20:12:32.537 . sst.c:51 --- Level 2 [  1 files, 339 KiB  ]---
+[5740] 02 Apr 20:12:32.537 . sst.c:55 Metadata filenum:0 smallest: 00ahzwp7dd66fd63 largest: zzzi899yzzdmha7t
+[5740] 02 Apr 20:12:32.537 . sst.c:51 --- Level 3 [  0 files,   0 bytes]---
+[5740] 02 Apr 20:12:32.537 . sst.c:51 --- Level 4 [  0 files,   0 bytes]---
+[5740] 02 Apr 20:12:32.537 . sst.c:51 --- Level 5 [  0 files,   0 bytes]---
+[5740] 02 Apr 20:12:32.537 . sst.c:51 --- Level 6 [  0 files,   0 bytes]---
+[5740] 02 Apr 20:12:32.537 . log.c:46 Removing old log file testdb/si/1.log
+[5740] 02 Apr 20:12:32.538 . sst.c:170 Merge successfully completed. Releasing the skiplist
+[5740] 02 Apr 20:12:35.462 . db.c:58 Starting compaction of the memtable after 233017 insertions and 0 deletions
+[5740] 02 Apr 20:12:35.462 . sst.c:595 IN sst_merge the REFCOUNT IS at 3
+[5740] 02 Apr 20:12:35.463 - file.c:170 Truncating file testdb/si/2.log to 4194306 bytes
+[5740] 02 Apr 20:12:35.463 - sst.c:165 The merge thread received a MERGE job
+[5740] 02 Apr 20:12:35.463 . sst.c:166 Merging inside compaction thread
+[5740] 02 Apr 20:12:35.463 . sst.c:608 Compacting the memtable to a SST file
+[5740] 02 Apr 20:12:35.463 - sst.c:877 Range [0017k6bfjgh51zjs, zzzvkg8s0iwzxal6] DOES NOT overlap in level 0. Checking others
+[5740] 02 Apr 20:12:35.463 - sst.c:892 Range [0017k6bfjgh51zjs, zzzvkg8s0iwzxal6] DOES  overlap in level 1. Checking others
+[5740] 02 Apr 20:12:35.463 . sst.c:929 Using level 0 for memtable compaction [0017k6bfjgh51zjs, zzzvkg8s0iwzxal6]
+[5740] 02 Apr 20:12:35.463 . file.c:200 Creating directory structure: testdb/si/0
+[5740] 02 Apr 20:12:35.463 - file.c:211  -> Creating testdb/si/0
+[5740] 02 Apr 20:12:35.463 . sst.c:633 Compaction of 233017 [4194306 bytes allocated] elements started
+[5740] 02 Apr 20:12:35.474 - log.c:159 Log file testdb/si/3.log created
+[5740] 02 Apr 20:12:35.673 - sst_builder.c:167 Index block @ offset: 0x3FA20D size: 23067
+[5740] 02 Apr 20:12:35.674 - sst_builder.c:168 Meta block @ offset: 0x3FA1C5 size: 72
+[5740] 02 Apr 20:12:35.674 - sst_builder.c:171 Bloom block @ offset: 0x3B2086 size: 295231
+[5740] 02 Apr 20:12:35.674 - file.c:170 Truncating file testdb/si/0/2.sst to 4193392 bytes
+[5740] 02 Apr 20:12:35.687 . file.c:65 Mapping of 4193392 bytes for testdb/si/0/2.sst
+[5740] 02 Apr 20:12:35.687 - sst_loader.c:183 Index @ offset: 4170253 size: 23067
+[5740] 02 Apr 20:12:35.687 - sst_loader.c:184 Meta Block @ offset: 4170181 size: 72
+[5740] 02 Apr 20:12:35.687 . sst_loader.c:201 Data size:        3874950
+[5740] 02 Apr 20:12:35.687 . sst_loader.c:203 Index size:       0
+[5740] 02 Apr 20:12:35.687 . sst_loader.c:204 Key size:         3728272
+[5740] 02 Apr 20:12:35.687 . sst_loader.c:205 Num blocks size:  943
+[5740] 02 Apr 20:12:35.688 . sst_loader.c:206 Num entries size: 233017
+[5740] 02 Apr 20:12:35.688 . sst_loader.c:207 Value size:       0
+[5740] 02 Apr 20:12:35.688 . sst_loader.c:210 Filter size:      295231
+[5740] 02 Apr 20:12:35.688 . sst_loader.c:211 Bloom offset 3874950 size: 295231
+[5740] 02 Apr 20:12:35.689 . sst.c:635 Compaction of 233017 elements finished
+[5740] 02 Apr 20:12:35.690 - file.c:170 Truncating file testdb/si/manifest to 117 bytes
+[5740] 02 Apr 20:12:35.693 . sst.c:51 --- Level 0 [  1 files,   3 MiB  ]---
+[5740] 02 Apr 20:12:35.693 . sst.c:55 Metadata filenum:2 smallest: 0017k6bfjgh51zjs largest: zzzvkg8s0iwzxal6
+[5740] 02 Apr 20:12:35.693 . sst.c:51 --- Level 1 [  1 files,   3 MiB  ]---
+[5740] 02 Apr 20:12:35.693 . sst.c:55 Metadata filenum:1 smallest: 0004vq5z8ssk3zy8 largest: zzzi4le12lhbt5il
+[5740] 02 Apr 20:12:35.693 . sst.c:51 --- Level 2 [  1 files, 339 KiB  ]---
+[5740] 02 Apr 20:12:35.693 . sst.c:55 Metadata filenum:0 smallest: 00ahzwp7dd66fd63 largest: zzzi899yzzdmha7t
+[5740] 02 Apr 20:12:35.693 . sst.c:51 --- Level 3 [  0 files,   0 bytes]---
+[5740] 02 Apr 20:12:35.694 . sst.c:51 --- Level 4 [  0 files,   0 bytes]---
+[5740] 02 Apr 20:12:35.694 . sst.c:51 --- Level 5 [  0 files,   0 bytes]---
+[5740] 02 Apr 20:12:35.694 . sst.c:51 --- Level 6 [  0 files,   0 bytes]---
+[5740] 02 Apr 20:12:35.694 . log.c:46 Removing old log file testdb/si/2.log
+[5740] 02 Apr 20:12:35.695 . sst.c:170 Merge successfully completed. Releasing the skiplist
+[5740] 02 Apr 20:12:36.464 . db.c:33 Closing database 46410
+[5740] 02 Apr 20:12:36.464 . sst.c:595 IN sst_merge the REFCOUNT IS at 2
+[5740] 02 Apr 20:12:36.464 . sst.c:415 Sending termination message to the detached thread
+[5740] 02 Apr 20:12:36.464 . sst.c:422 Waiting the merger thread
+[5740] 02 Apr 20:12:36.464 - sst.c:165 The merge thread received a MERGE job
+[5740] 02 Apr 20:12:36.465 . sst.c:166 Merging inside compaction thread
+[5740] 02 Apr 20:12:36.465 . sst.c:608 Compacting the memtable to a SST file
+[5740] 02 Apr 20:12:36.465 - sst.c:870 Range [000bvnn6p1r1e1a6, zzxpufbucxbrj276] DOES overlap in level 0. Checking others
+[5740] 02 Apr 20:12:36.465 . sst.c:929 Using level 0 for memtable compaction [000bvnn6p1r1e1a6, zzxpufbucxbrj276]
+[5740] 02 Apr 20:12:36.465 . file.c:200 Creating directory structure: testdb/si/0
+[5740] 02 Apr 20:12:36.465 . sst.c:633 Compaction of 46410 [835380 bytes allocated] elements started
+[5740] 02 Apr 20:12:36.494 - sst_builder.c:167 Index block @ offset: 0xD03DE size: 4635
+[5740] 02 Apr 20:12:36.494 - sst_builder.c:168 Meta block @ offset: 0xD0396 size: 72
+[5740] 02 Apr 20:12:36.494 - sst_builder.c:171 Bloom block @ offset: 0xC1DA6 size: 58864
+[5740] 02 Apr 20:12:36.494 - file.c:170 Truncating file testdb/si/0/3.sst to 857665 bytes
+[5740] 02 Apr 20:12:36.502 . file.c:65 Mapping of 857665 bytes for testdb/si/0/3.sst
+[5740] 02 Apr 20:12:36.502 - sst_loader.c:183 Index @ offset: 852958 size: 4635
+[5740] 02 Apr 20:12:36.502 - sst_loader.c:184 Meta Block @ offset: 852886 size: 72
+[5740] 02 Apr 20:12:36.502 . sst_loader.c:201 Data size:        794022
+[5740] 02 Apr 20:12:36.502 . sst_loader.c:203 Index size:       0
+[5740] 02 Apr 20:12:36.502 . sst_loader.c:204 Key size:         742560
+[5740] 02 Apr 20:12:36.502 . sst_loader.c:205 Num blocks size:  193
+[5740] 02 Apr 20:12:36.502 . sst_loader.c:206 Num entries size: 46410
+[5740] 02 Apr 20:12:36.502 . sst_loader.c:207 Value size:       0
+[5740] 02 Apr 20:12:36.502 . sst_loader.c:210 Filter size:      58864
+[5740] 02 Apr 20:12:36.502 . sst_loader.c:211 Bloom offset 794022 size: 58864
+[5740] 02 Apr 20:12:36.502 . sst.c:635 Compaction of 46410 elements finished
+[5740] 02 Apr 20:12:36.502 - file.c:170 Truncating file testdb/si/manifest to 154 bytes
+[5740] 02 Apr 20:12:36.505 . sst.c:51 --- Level 0 [  2 files,   4 MiB  ]---
+[5740] 02 Apr 20:12:36.505 . sst.c:55 Metadata filenum:3 smallest: 000bvnn6p1r1e1a6 largest: zzxpufbucxbrj276
+[5740] 02 Apr 20:12:36.505 . sst.c:55 Metadata filenum:2 smallest: 0017k6bfjgh51zjs largest: zzzvkg8s0iwzxal6
+[5740] 02 Apr 20:12:36.505 . sst.c:51 --- Level 1 [  1 files,   3 MiB  ]---
+[5740] 02 Apr 20:12:36.505 . sst.c:55 Metadata filenum:1 smallest: 0004vq5z8ssk3zy8 largest: zzzi4le12lhbt5il
+[5740] 02 Apr 20:12:36.505 . sst.c:51 --- Level 2 [  1 files, 339 KiB  ]---
+[5740] 02 Apr 20:12:36.505 . sst.c:55 Metadata filenum:0 smallest: 00ahzwp7dd66fd63 largest: zzzi899yzzdmha7t
+[5740] 02 Apr 20:12:36.505 . sst.c:51 --- Level 3 [  0 files,   0 bytes]---
+[5740] 02 Apr 20:12:36.505 . sst.c:51 --- Level 4 [  0 files,   0 bytes]---
+[5740] 02 Apr 20:12:36.505 . sst.c:51 --- Level 5 [  0 files,   0 bytes]---
+[5740] 02 Apr 20:12:36.505 . sst.c:51 --- Level 6 [  0 files,   0 bytes]---
+[5740] 02 Apr 20:12:36.505 . log.c:46 Removing old log file testdb/si/2.log
+[5740] 02 Apr 20:12:36.505 . sst.c:170 Merge successfully completed. Releasing the skiplist
+[5740] 02 Apr 20:12:36.505 . skiplist.c:67 SkipList refcount is at 0. Freeing up the structure
+[5740] 02 Apr 20:12:36.505 - sst.c:176 Exiting from the merge thread as user requested
+[5740] 02 Apr 20:12:36.505 - file.c:170 Truncating file testdb/si/manifest to 154 bytes
+[5740] 02 Apr 20:12:36.509 . log.c:46 Removing old log file testdb/si/3.log
++--------------------------------+--------------------------------+
+| Overall Statistics             |                                |
++--------------------------------+--------------------------------+
+| Wall Clock Time                |      6.622 sec                  |
+| Total Operations Completed     |    1000000 ops                 |
+|   Reads                        |     499288 ops                 |
+|   Writes                       |     500712 ops                 |
+| Throughput                     |   151019.9 ops/sec             |
++--------------------------------+--------------------------------+
+| Average Latencies              |                                |
++--------------------------------+--------------------------------+
+| Average Operation Latency    |       19.0 us                   |
+|   Average Read Latency         |        7.7 us                   |
+|   Average Write Latency        |       30.3 us                   |
++--------------------------------+--------------------------------+
+| Total DB Ops CPU Time (Sum)    |     19.008 sec                  |
+| Max Thread Wall Time           |       6611 ms                  |
++--------------------------------+--------------------------------+
+
+Per-Thread Details:
+---------------------------------------------------------------------------------------
+| Thread | Ops Done | Reads  | Writes | Read Time (us) | Write Time (us) | Wall Time (ms) |
+|--------|----------|--------|--------|----------------|-----------------|----------------|
+| 0      | 333334   | 166537 | 166797 | 1157338        | 5259019         | 6611           |
+| 1      | 333333   | 166377 | 166956 | 1458210        | 4729953         | 6369           |
+| 2      | 333333   | 166374 | 166959 | 1214060        | 5189848         | 6611           |
+---------------------------------------------------------------------------------------

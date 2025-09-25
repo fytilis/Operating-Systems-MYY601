@@ -1,0 +1,709 @@
+Keys:		16 bytes each
+Values: 	1000 bytes each
+Entries:	600000
+IndexSize:	14.31 MiB (estimated)
+DataSize:	574.49 MiB (estimated)
+---------------------------------------------------------------------------------------------------
+Date:		Wed Apr  2 20:11:29 2025
+CPU:		2 * AMD Ryzen 7 3700U with Radeon Vega Mobile Gfx
+CPUCache:	512 KB
+---------------------------------------------------------------------------------------------------
+Starting benchmark...
+Requested Total Ops: 600000
+Threads: 10, Write Ratio: 20%
+Random Keys: Yes
+---------------------------------------------------------------------------------------------------
+[5550] 02 Apr 20:11:29.860 . file.c:200 Creating directory structure: testdb/si
+[5550] 02 Apr 20:11:29.861 - file.c:211  -> Creating testdb
+[5550] 02 Apr 20:11:29.861 - file.c:211  -> Creating testdb/si
+[5550] 02 Apr 20:11:29.863 . sst.c:283 Manifest file not present
+[5550] 02 Apr 20:11:29.944 . db.c:58 Starting compaction of the memtable after 4117 insertions and 0 deletions
+[5550] 02 Apr 20:11:29.944 . sst.c:595 IN sst_merge the REFCOUNT IS at 3
+[5550] 02 Apr 20:11:29.944 - log.c:159 Log file testdb/si/1.log created
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.944 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.945 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.946 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.947 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.948 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.952 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.952 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.952 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.952 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.952 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.952 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.952 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.952 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.952 - sst.c:660 Serving sst_get request from immutable memtable
+[5550] 02 Apr 20:11:29.952 - sst.c:165 The merge thread received a MERGE job
+[5550] 02 Apr 20:11:29.952 . sst.c:166 Merging inside compaction thread
+[5550] 02 Apr 20:11:29.952 . sst.c:608 Compacting the memtable to a SST file
+[5550] 02 Apr 20:11:29.952 - sst.c:877 Range [003c853hyl5cis5a, zzxrgg720a3uv66n] DOES NOT overlap in level 0. Checking others
+[5550] 02 Apr 20:11:29.952 - sst.c:825 Extracted range: [003c853hyl5cis5a, zzxrgg720a3uv66n]
+[5550] 02 Apr 20:11:29.952 - sst.c:825 Extracted range: [003c853hyl5cis5a, zzxrgg720a3uv66n]
+[5550] 02 Apr 20:11:29.952 . sst.c:929 Using level 2 for memtable compaction [003c853hyl5cis5a, zzxrgg720a3uv66n]
+[5550] 02 Apr 20:11:29.952 . file.c:200 Creating directory structure: testdb/si/2
+[5550] 02 Apr 20:11:29.952 - file.c:211  -> Creating testdb/si/2
+[5550] 02 Apr 20:11:29.953 . sst.c:633 Compaction of 4117 [4195223 bytes allocated] elements started
+[5550] 02 Apr 20:11:29.959 - sst_builder.c:167 Index block @ offset: 0x5011B size: 19740
+[5550] 02 Apr 20:11:29.959 - sst_builder.c:168 Meta block @ offset: 0x500D3 size: 72
+[5550] 02 Apr 20:11:29.959 - sst_builder.c:171 Bloom block @ offset: 0x4DA2F size: 9892
+[5550] 02 Apr 20:11:29.959 - file.c:170 Truncating file testdb/si/2/0.sst to 347775 bytes
+[5550] 02 Apr 20:11:29.968 . file.c:65 Mapping of 347775 bytes for testdb/si/2/0.sst
+[5550] 02 Apr 20:11:29.968 - sst_loader.c:183 Index @ offset: 327963 size: 19740
+[5550] 02 Apr 20:11:29.968 - sst_loader.c:184 Meta Block @ offset: 327891 size: 72
+[5550] 02 Apr 20:11:29.968 . sst_loader.c:201 Data size:        317999
+[5550] 02 Apr 20:11:29.968 . sst_loader.c:203 Index size:       0
+[5550] 02 Apr 20:11:29.968 . sst_loader.c:204 Key size:         65872
+[5550] 02 Apr 20:11:29.968 . sst_loader.c:205 Num blocks size:  824
+[5550] 02 Apr 20:11:29.968 . sst_loader.c:206 Num entries size: 4117
+[5550] 02 Apr 20:11:29.969 . sst_loader.c:207 Value size:       4117000
+[5550] 02 Apr 20:11:29.969 . sst_loader.c:210 Filter size:      9892
+[5550] 02 Apr 20:11:29.969 . sst_loader.c:211 Bloom offset 317999 size: 9892
+[5550] 02 Apr 20:11:29.969 . sst.c:635 Compaction of 4117 elements finished
+[5550] 02 Apr 20:11:29.969 - file.c:170 Truncating file testdb/si/manifest to 44 bytes
+[5550] 02 Apr 20:11:29.971 . sst.c:51 --- Level 0 [  0 files,   0 bytes]---
+[5550] 02 Apr 20:11:29.971 . sst.c:51 --- Level 1 [  0 files,   0 bytes]---
+[5550] 02 Apr 20:11:29.971 . sst.c:51 --- Level 2 [  1 files, 339 KiB  ]---
+[5550] 02 Apr 20:11:29.971 . sst.c:55 Metadata filenum:0 smallest: 003c853hyl5cis5a largest: zzxrgg720a3uv66n
+[5550] 02 Apr 20:11:29.971 . sst.c:51 --- Level 3 [  0 files,   0 bytes]---
+[5550] 02 Apr 20:11:29.971 . sst.c:51 --- Level 4 [  0 files,   0 bytes]---
+[5550] 02 Apr 20:11:29.972 . sst.c:51 --- Level 5 [  0 files,   0 bytes]---
+[5550] 02 Apr 20:11:29.972 . sst.c:51 --- Level 6 [  0 files,   0 bytes]---
+[5550] 02 Apr 20:11:29.972 . log.c:46 Removing old log file testdb/si/0.log
+[5550] 02 Apr 20:11:29.972 . sst.c:170 Merge successfully completed. Releasing the skiplist
+[5550] 02 Apr 20:11:34.034 . db.c:33 Closing database 116086
+[5550] 02 Apr 20:11:34.034 . sst.c:595 IN sst_merge the REFCOUNT IS at 2
+[5550] 02 Apr 20:11:34.034 . sst.c:415 Sending termination message to the detached thread
+[5550] 02 Apr 20:11:34.034 . sst.c:422 Waiting the merger thread
+[5550] 02 Apr 20:11:34.035 - sst.c:165 The merge thread received a MERGE job
+[5550] 02 Apr 20:11:34.035 . sst.c:166 Merging inside compaction thread
+[5550] 02 Apr 20:11:34.035 . sst.c:608 Compacting the memtable to a SST file
+[5550] 02 Apr 20:11:34.035 - sst.c:877 Range [0008umr0dlp5x6ng, zzzrdfs4leu7lfjz] DOES NOT overlap in level 0. Checking others
+[5550] 02 Apr 20:11:34.035 - sst.c:825 Extracted range: [0008umr0dlp5x6ng, zzzrdfs4leu7lfjz]
+[5550] 02 Apr 20:11:34.035 - sst.c:892 Range [0008umr0dlp5x6ng, zzzrdfs4leu7lfjz] DOES  overlap in level 2. Checking others
+[5550] 02 Apr 20:11:34.035 . sst.c:929 Using level 1 for memtable compaction [0008umr0dlp5x6ng, zzzrdfs4leu7lfjz]
+[5550] 02 Apr 20:11:34.035 . file.c:200 Creating directory structure: testdb/si/1
+[5550] 02 Apr 20:11:34.035 - file.c:211  -> Creating testdb/si/1
+[5550] 02 Apr 20:11:34.035 . sst.c:633 Compaction of 116086 [2367826 bytes allocated] elements started
+[5550] 02 Apr 20:11:34.129 - sst_builder.c:167 Index block @ offset: 0x20BF77 size: 12794
+[5550] 02 Apr 20:11:34.129 - sst_builder.c:168 Meta block @ offset: 0x20BF2F size: 72
+[5550] 02 Apr 20:11:34.129 - sst_builder.c:171 Bloom block @ offset: 0x1E7F4C size: 147427
+[5550] 02 Apr 20:11:34.129 - file.c:170 Truncating file testdb/si/1/1.sst to 2159033 bytes
+[5550] 02 Apr 20:11:34.148 . file.c:65 Mapping of 2159033 bytes for testdb/si/1/1.sst
+[5550] 02 Apr 20:11:34.148 - sst_loader.c:183 Index @ offset: 2146167 size: 12794
+[5550] 02 Apr 20:11:34.148 - sst_loader.c:184 Meta Block @ offset: 2146095 size: 72
+[5550] 02 Apr 20:11:34.148 . sst_loader.c:201 Data size:        1998668
+[5550] 02 Apr 20:11:34.148 . sst_loader.c:203 Index size:       0
+[5550] 02 Apr 20:11:34.148 . sst_loader.c:204 Key size:         1857376
+[5550] 02 Apr 20:11:34.148 . sst_loader.c:205 Num blocks size:  533
+[5550] 02 Apr 20:11:34.148 . sst_loader.c:206 Num entries size: 116086
+[5550] 02 Apr 20:11:34.148 . sst_loader.c:207 Value size:       278000
+[5550] 02 Apr 20:11:34.148 . sst_loader.c:210 Filter size:      147427
+[5550] 02 Apr 20:11:34.149 . sst_loader.c:211 Bloom offset 1998668 size: 147427
+[5550] 02 Apr 20:11:34.149 . sst.c:635 Compaction of 116086 elements finished
+[5550] 02 Apr 20:11:34.149 - file.c:170 Truncating file testdb/si/manifest to 81 bytes
+[5550] 02 Apr 20:11:34.151 . sst.c:51 --- Level 0 [  0 files,   0 bytes]---
+[5550] 02 Apr 20:11:34.151 . sst.c:51 --- Level 1 [  1 files,   2 MiB  ]---
+[5550] 02 Apr 20:11:34.151 . sst.c:55 Metadata filenum:1 smallest: 0008umr0dlp5x6ng largest: zzzrdfs4leu7lfjz
+[5550] 02 Apr 20:11:34.151 . sst.c:51 --- Level 2 [  1 files, 339 KiB  ]---
+[5550] 02 Apr 20:11:34.151 . sst.c:55 Metadata filenum:0 smallest: 003c853hyl5cis5a largest: zzxrgg720a3uv66n
+[5550] 02 Apr 20:11:34.151 . sst.c:51 --- Level 3 [  0 files,   0 bytes]---
+[5550] 02 Apr 20:11:34.151 . sst.c:51 --- Level 4 [  0 files,   0 bytes]---
+[5550] 02 Apr 20:11:34.151 . sst.c:51 --- Level 5 [  0 files,   0 bytes]---
+[5550] 02 Apr 20:11:34.151 . sst.c:51 --- Level 6 [  0 files,   0 bytes]---
+[5550] 02 Apr 20:11:34.151 . log.c:46 Removing old log file testdb/si/0.log
+[5550] 02 Apr 20:11:34.152 . sst.c:170 Merge successfully completed. Releasing the skiplist
+[5550] 02 Apr 20:11:34.152 . skiplist.c:67 SkipList refcount is at 0. Freeing up the structure
+[5550] 02 Apr 20:11:34.152 - sst.c:176 Exiting from the merge thread as user requested
+[5550] 02 Apr 20:11:34.153 - file.c:170 Truncating file testdb/si/manifest to 81 bytes
+[5550] 02 Apr 20:11:34.155 . log.c:46 Removing old log file testdb/si/1.log
++--------------------------------+--------------------------------+
+| Overall Statistics             |                                |
++--------------------------------+--------------------------------+
+| Wall Clock Time                |      4.174 sec                  |
+| Total Operations Completed     |     600000 ops                 |
+|   Reads                        |     479797 ops                 |
+|   Writes                       |     120203 ops                 |
+| Throughput                     |   143752.2 ops/sec             |
++--------------------------------+--------------------------------+
+| Average Latencies              |                                |
++--------------------------------+--------------------------------+
+| Average Operation Latency    |       61.6 us                   |
+|   Average Read Latency         |        8.0 us                   |
+|   Average Write Latency        |      275.9 us                   |
++--------------------------------+--------------------------------+
+| Total DB Ops CPU Time (Sum)    |     36.983 sec                  |
+| Max Thread Wall Time           |       4166 ms                  |
++--------------------------------+--------------------------------+
+
+Per-Thread Details:
+---------------------------------------------------------------------------------------
+| Thread | Ops Done | Reads  | Writes | Read Time (us) | Write Time (us) | Wall Time (ms) |
+|--------|----------|--------|--------|----------------|-----------------|----------------|
+| 0      | 60000    | 47982  | 12018  | 391864         | 3418432         | 3841           |
+| 1      | 60000    | 47756  | 12244  | 322021         | 3393669         | 3750           |
+| 2      | 60000    | 47978  | 12022  | 344663         | 3438467         | 3815           |
+| 3      | 60000    | 48195  | 11805  | 408278         | 3396400         | 3847           |
+| 4      | 60000    | 48119  | 11881  | 507709         | 3606448         | 4150           |
+| 5      | 60000    | 47885  | 12115  | 507847         | 3627989         | 4166           |
+| 6      | 60000    | 47974  | 12026  | 267375         | 2620597         | 2933           |
+| 7      | 60000    | 48026  | 11974  | 347219         | 3463624         | 3839           |
+| 8      | 60000    | 47999  | 12001  | 333406         | 2789299         | 3150           |
+| 9      | 60000    | 47883  | 12117  | 388038         | 3409665         | 3838           |
+---------------------------------------------------------------------------------------
